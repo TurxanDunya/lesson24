@@ -1,0 +1,27 @@
+package main;
+
+// thread - worker
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+
+        for (int i = 0; i < 10; i++) {
+
+        }
+//        while (true) {
+//            System.out.println(++i);
+//            try {
+//                Thread.sleep(1000);
+//            } catch (InterruptedException e) {
+//                throw new RuntimeException(e);
+//            }
+//
+//            if (i == 3) {
+//                break;
+//            }
+//        }
+
+        System.out.println("End of thread");
+    }
+}
